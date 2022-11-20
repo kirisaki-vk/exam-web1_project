@@ -1,0 +1,133 @@
+.fixed-background{
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    position: sticky;
+    background-size: cover;
+    height: 100vh;
+    z-index: -9999;
+    top: 0;
+
+}
+.main-container{
+    background-color: transparent;
+    margin-top: -100vh;
+    display: flex;
+    flex-direction: column;
+}
+.profile-info {
+    position: absolute;
+    height: fit-content;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.profile-content{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-icon{
+    position: absolute;
+    bottom: 5%;
+    z-index: 1;
+    animation: bounce normal 2s infinite ;
+}
+.description{
+    padding-left: 5px;
+    height: fit-content;
+    margin-left: 20px;
+    font-size: x-large;
+}
+.description_back{
+    display: flex;
+    border-radius: 0 8px 8px 0;
+    background-color: var(--transparent-primary);
+    backdrop-filter: blur(8px);
+    height: 14em;
+    width: 24em; 
+    align-items: center;
+}
+.profile-pic{
+    width: 14em;
+    height: 14em;
+    border-radius: 8px 0 0 8px;
+}
+#bio-landing{
+    margin-top: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bio-img{
+    height: 50vh;
+    width: 95%;
+    border-radius: 8px;
+    background-image: url(Images/pic05.jpg);
+    background-size: cover;
+}
+
+.bio-text{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--transparent-primary);
+    backdrop-filter: blur(8px);
+}
+.bio-text *{
+    width: 30vw;
+}
+.game-descripts{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.game-splash{
+    width: 45vw;
+    height:25vw;
+    border-radius: 8px;
+}
+.game-info{
+    width: 45vw;
+    padding: 20px;
+    background-color: var(--transparent-primary);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+}
+.n1-game{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.n2-game{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.n3-game{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
