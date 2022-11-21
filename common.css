@@ -140,12 +140,19 @@ button:hover{
 
 h1{
     font-size: 65px;
+    margin: 25px 0;
 }
 h2{
     font-weight: 100;
     color: rgba(240, 248, 255, 0.644);
+    margin: 25px 0;
 }
-
+h3{
+    margin: 25px;
+}
+p{
+    margin: 20px 0;
+}
 @keyframes bounce {
     0%{
         transform: translateY(0);
