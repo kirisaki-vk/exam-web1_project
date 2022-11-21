@@ -77,7 +77,7 @@
 }
 
 .bio-text{
-    margin-top: 40px;
+    margin:40px 0;
     display: flex;
     flex-direction: row;
     padding: 25px 0;
