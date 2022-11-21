@@ -47,71 +47,101 @@
             <h2>Phigros est un jeu de musique "sans voie" avec des lignes de jugement dynamiques et quatre types de
                 notes différents, vous apportant une expérience rythmique rafraîchissante comme jamais auparavant!</h2>
             <div class="separator"></div>
-            <div class="description">
-                <h3>À propos</h3>
-                <p>C'est un jeu gratuit créé par le studio Pigeon Games, qui propose une nouvelle façon de jouer aux
-                    jeux de rythmes. Elle possède actuellement 156 chansons de différentes genres.</p>
-                <h3>Gameplay</h3>
-                <p>
-                    Le gameplay de Phigros consiste en différents types de notes descendant vers des lignes de jugement
-                    que le joueur doit frapper lorsque les notes les atteignent.
-                </p>
-                <p>
-                    Il y 4 types de notes dans ce jeu :
-                </p>
-                <ul>
-                    <li><b>Tap :</b>Appuyez sur lorsqu'ils atteignent la ligne de jugement</li>
-                    <li><b>Hold :</b>Appuyez dessus lorsqu'ils atteignent la ligne de jugement, puis maintenez-les
-                        enfoncés jusqu'à ce qu'ils franchissent complètement la ligne</li>
-                    <li><b>Drag :</b>Hold when they reach the judgement line</li>
-                    <li><b>Flick :</b>Glissez quand ils atteignent la ligne de jugement</li>
-                </ul>
-                <p>Il peut y avoir plusieurs lignes de jugement et les notes peuvent approcher leurs lignes de jugement
-                    respectives de chaque côté (au-dessus ou au-dessous). Les lignes de jugement peuvent également
-                    pivoter, changer d'opacité et se déplacer sur le terrain de jeu.</p>
-                <h3>Système de jugement</h3>
-                <p>
-                    Lorsque vous frappez une note, le résultat sera l'un des trois jugements différents, Parfait, Bon ou
-                    Mauvais, selon la précision avec laquelle le coup a été chronométré, ou Manqué si la note n'a pas
-                    été frappée du tout. Chaque jugement attribuera une certaine précision.
-                </p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Jugement</th>
-                            <th>Précision</th>
-                            <th>Fenêtre de temps</th>
-                            <th>Fenêtre de temps (en mode chalenge)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Perfect</td>
-                            <td>100%</td>
-                            <td>±80ms</td>
-                            <td>±40ms</td>
-                        </tr>
-                        <tr>
-                            <td>Good</td>
-                            <td>65%</td>
-                            <td>±160ms</td>
-                            <td>±75ms</td>
-                        </tr>
-                        <tr>
-                            <td>Bad</td>
-                            <td>0%</td>
-                            <td>±180ms</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Miss</td>
-                            <td>0%</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="desc-parent">
+                <div class="description">
+                    <h3>À propos</h3>
+                    <p>C'est un jeu gratuit créé par le studio Pigeon Games, qui propose une nouvelle façon de jouer aux
+                        jeux de rythmes. Elle possède actuellement 156 chansons de différentes genres.</p>
+                    <h3>Gameplay</h3>
+                    <p>
+                        Le gameplay de Phigros consiste en différents types de notes descendant vers des lignes de
+                        jugement
+                        que le joueur doit frapper lorsque les notes les atteignent.
+                    </p>
+                    <p>
+                        Il y 4 types de notes dans ce jeu :
+                    </p>
+                    <ul>
+                        <li><b>Tap :</b> Appuyez sur lorsqu'ils atteignent la ligne de jugement</li>
+                        <li><b>Hold :</b> Appuyez dessus lorsqu'ils atteignent la ligne de jugement, puis maintenez-les
+                            enfoncés jusqu'à ce qu'ils franchissent complètement la ligne</li>
+                        <li><b>Drag :</b> Maintenez lorsqu'ils atteignent la ligne de jugument</li>
+                        <li><b>Flick :</b> Glissez quand ils atteignent la ligne de jugement</li>
+                    </ul>
+                    <p>Il peut y avoir plusieurs lignes de jugement et les notes peuvent approcher leurs lignes de
+                        jugement
+                        respectives de chaque côté (au-dessus ou au-dessous). Les lignes de jugement peuvent également
+                        pivoter, changer d'opacité et se déplacer sur le terrain de jeu.</p>
+                    <h3>Système de jugement</h3>
+                    <p>
+                        Lorsque vous frappez une note, le résultat sera l'un des trois jugements différents, Parfait,
+                        Bon ou
+                        Mauvais, selon la précision avec laquelle le coup a été chronométré, ou Manqué si la note n'a
+                        pas
+                        été frappée du tout. Chaque jugement attribuera une certaine précision.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jugement</th>
+                                <th>Précision</th>
+                                <th>Fenêtre de temps</th>
+                                <th>Fenêtre de temps (en mode chalenge)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Perfect</td>
+                                <td>100%</td>
+                                <td>±80ms</td>
+                                <td>±40ms</td>
+                            </tr>
+                            <tr>
+                                <td>Good</td>
+                                <td>65%</td>
+                                <td>±160ms</td>
+                                <td>±75ms</td>
+                            </tr>
+                            <tr>
+                                <td>Bad</td>
+                                <td>0%</td>
+                                <td>±180ms</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Miss</td>
+                                <td>0%</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <blockquote>Les notes Drag and Flick sont incapables de donner des jugements bons ou mauvais, elles
+                        se traduiront donc toujours par Perfect ou Miss.</blockquote>
+                </div>
+                <div class="side-desc">
+                    <h3>Aperçu du gameplay du jeu actuelle</h3>
+                    <video src=""></video>
+                    <h3>Infos intérésantes sur le jeu</h3>
+                    <p style="margin-left: 15px;">
+                         À chaque fin d'une chapitre, le jeu possède des chansons cachés qui sont comme des niveau Boss pour débloqer le chapitre suivant.
+                    </p>
+                    <h3>Liens utiles (liens externes)</h3>
+                    <a href="https://www.pigeongames.cn/phigros" class="util-links">
+                        <img src="Images/pigeon-logo.png" alt="">
+                        Site officielle du jeu
+                    </a>
+                    <a href="" class="util-links">
+                        <img src="Images/fandom-wiki.png" alt="">
+                        Wiki du jeu
+                    </a>
+                    <a href="" class="util-links">
+                        <img src="Images/playstore-logo.png" alt="">
+                        Telechager le jeu
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </body>
+</html>

@@ -37,7 +37,7 @@ header{
     margin-left: 10px;
     display: flex;
     align-items: center;
-    margin-top: 6px;
+    margin-top: 0px;
 }
 
 .home-icon img{
@@ -129,6 +129,8 @@ button{
     margin-top: 15px;
     border-color: white;
     border-radius: 8px;
+    align-items: baseline;
+    justify-content: baseline;
 }
 
 button:hover{
@@ -139,7 +141,7 @@ button:hover{
 }
 
 h1{
-    font-size: 65px;
+    font-size: 50px;
     margin: 25px 0;
 }
 h2{
@@ -152,6 +154,32 @@ h3{
 }
 p{
     margin: 20px 0;
+}
+blockquote {
+    border-left: solid 4px rgba(255, 255, 255, 0.3);
+    font-style: italic;
+    margin: 0 0 2em 0;
+    padding: 0.5em 0.5em 0.5em 2em;
+    background-color: rgba(128, 128, 128, 0.295);
+    width:fit-content;
+}
+.util-links{
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    width: fit-content;
+    margin: 8px 0;
+    transition: 0.5s;
+}
+.util-links img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+.util-links:hover{
+    background-color: white;
+    color: black;
 }
 @keyframes bounce {
     0%{

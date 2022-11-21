@@ -42,7 +42,8 @@
 }
 .description{
     text-align: left;
-    padding: 50px;
+    padding: 25px;
+    width: 65%;
 }
 .description table{
     width: 100%;
@@ -51,7 +52,30 @@
     margin: 50px 0;
 }
 table td{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(255, 217, 0, 0.5);
+    padding: 20px;
+}
+.desc-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.desc-parent div{
+    margin: 0;
+}
+.side-desc{
+    position: sticky;
+    top:150px;
+    width: 25%;
+    text-align: left;
+    padding: 25px;
+}
+.side-desc a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.side-desc h3{
+    margin: 25px 0;
 }
 @keyframes slide {
     0%{
