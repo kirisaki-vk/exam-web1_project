@@ -17,11 +17,13 @@
     background-color: transparent;
     scroll-behavior: smooth;
 }
+.top-nav_mobile{
+    display: none;
+}
 .top-nav{
     width: 99%;
     height: 60px;
     background-color: var(--primary-color);
-
     position: fixed;
     backdrop-filter: blur(4px);
     margin: 5px;
@@ -180,6 +182,30 @@ blockquote {
 .util-links:hover{
     background-color: white;
     color: black;
+}
+.im1{
+    animation: imgeffet 10s normal infinite;
+} 
+.im2{
+    animation: imgeffet 10s normal infinite;
+    animation-delay: 10s;
+} 
+.im3{
+    animation: imgeffet 10s normal infinite;
+    animation-delay: 20s;
+} 
+
+
+@keyframes imgeffet {
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 @keyframes bounce {
     0%{

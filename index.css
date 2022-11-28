@@ -51,13 +51,13 @@
     border-radius: 0 8px 8px 0;
     background-color: var(--transparent-primary);
     backdrop-filter: blur(8px);
-    height: 14em;
+    height: 16em;
     width: 24em; 
     align-items: center;
 }
 .profile-pic{
-    width: 14em;
-    height: 14em;
+    width: 16em;
+    height: 16em;
     border-radius: 8px 0 0 8px;
 }
 #bio-landing{
@@ -130,4 +130,77 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 40px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-links{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+
+/*responsive-part*/
+@media only screen and (max-width: 800px) {
+    .profile-info{
+        flex-direction: column;
+    }
+    .profile-pic{
+        border-radius: 8px 8px 0 0;
+    }
+    .description_back{
+        width: 16em;
+        border-radius: 0 0 8px 8px;
+        height: fit-content;
+    }
+    .description{
+        margin: 0;
+    }
+    .description h1{
+        margin: 0;
+        font-size: xx-large;
+        width: 100%;
+        text-align: center;
+    }
+    .description p{
+        text-align: center;
+        font-size: large;
+    }
+    .social-media{
+        margin-bottom: 15px;
+    }
+    .next-icon{
+        height: 15vw;
+        width: 15vw;
+    }
+    .bio-text{
+        flex-direction: column;
+        margin-top: 2em;
+        align-items: center;
+    }
+    .bio-text *{
+        width: 90vw;
+    }
+    .bio-text div *{
+        width: 100%;
+        text-align: center;
+    }
+    .games-descripts *{
+        flex-direction: column;
+    }
+    .games-descripts div img{
+        height: 25vh;
+        width: 90vw;
+        border-radius: 8px 8px 0 0;
+    }
+    .game-info{
+        width: 80%;
+        border-radius: 0 0 8px 8px;
+    }
+    .game-info button{
+        float: right;
+    }
 }
