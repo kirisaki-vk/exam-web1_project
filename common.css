@@ -183,6 +183,27 @@ blockquote {
     background-color: white;
     color: black;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    border: 8px;
+    background-color: var(--transparent-primary);
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    align-items: center;
+}
+footer *{
+    width: fit-content;
+    margin: 0;
+    color: gray;
+}
+footer div a:hover{
+    color: white;
+}
 .im1{
     animation: imgeffet 10s normal infinite;
 } 
