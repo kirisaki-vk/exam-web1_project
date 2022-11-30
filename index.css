@@ -54,6 +54,7 @@
     display: flex;
     border-radius: 0 8px 8px 0;
     background-color: var(--transparent-primary);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     height: 16em;
     width: 24em; 
@@ -92,6 +93,7 @@
     justify-content: space-around;
     width: 100%;
     background-color: var(--transparent-primary);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
 }
 .bio-text *{
@@ -115,6 +117,7 @@
     width: 45vw;
     padding: 20px;
     background-color: var(--transparent-primary);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     border-radius: 8px;
 }
