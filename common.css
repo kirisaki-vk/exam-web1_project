@@ -122,7 +122,9 @@ nav{
 }
 
 .main-container{
+    margin: auto;
     width: 100%;
+    max-width: 1500px;
     display: flex;
 }
 button{
@@ -186,11 +188,12 @@ blockquote {
 footer{
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    width: 95%;
+    max-width: 1500px;
     height: fit-content;
     margin: auto;
     padding: 10px;
-    border: 8px;
+    border-radius: 8px 8px 0 0;
     background-color: var(--transparent-primary);
     backdrop-filter: blur(8px);
     justify-content: center;
