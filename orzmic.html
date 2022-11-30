@@ -71,88 +71,82 @@
                     <p>Ce jeu qui est aussi gratuit proposé par BTworks est un jeu de rhythme très similaire à <a href="phigros.html">Phigros</a>. Elle est cependant plus dynamique et réactif que son concurent.</p>
                     <h3>Gameplay</h3>
                     <p>
-                        Le gameplay de Phigros consiste en différents types de notes descendant vers des lignes de
-                        jugement
-                        que le joueur doit frapper lorsque les notes les atteignent.
+                        Le gameplay dans Orzmic se compose de différents types de notes descendant vers des cibles que le joueur doit frapper lorsque les notes atteignent.
                     </p>
                     <p>
-                        Il y 4 types de notes dans ce jeu :
+                        Il y 3 types de notes dans ce jeu :
                     </p>
                     <ul>
                         <li><b>Tap :</b> Appuyez sur lorsqu'ils atteignent la ligne de jugement</li>
-                        <li><b>Hold :</b> Appuyez dessus lorsqu'ils atteignent la ligne de jugement, puis maintenez-les
-                            enfoncés jusqu'à ce qu'ils franchissent complètement la ligne</li>
-                        <li><b>Drag :</b> Maintenez lorsqu'ils atteignent la ligne de jugument</li>
-                        <li><b>Flick :</b> Glissez quand ils atteignent la ligne de jugement</li>
+                        <li><b>Hold :</b> Appuyez dessus lorsqu'ils atteignent la cible, puis maintenez-les
+                            enfoncés jusqu'à ce qu'ils franchissent complètement cible</li>
+                        <li><b>Drag :</b> Maintenez lorsqu'ils atteignent la cible</li>
                     </ul>
-                    <p>Il peut y avoir plusieurs lignes de jugement et les notes peuvent approcher leurs lignes de
-                        jugement
-                        respectives de chaque côté (au-dessus ou au-dessous). Les lignes de jugement peuvent également
-                        pivoter, changer d'opacité et se déplacer sur le terrain de jeu.</p>
+
+                    <p>Il existe 2 types de cible :</p>
+                    <ul>
+                        <li><b>Cercle : Appuyez / Maintenez</b> lorsque la note atteint le bord du cercle</li>
+                        <li><b>Ligne : Appuyez/ Maintenez</b> enfoncée lorsque la note atteint la ligne</li>
+                    </ul>
+
+                    <p>Il peut y avoir plusieurs cibles et les notes peuvent s’approcher de n’importe quel côté de la cible. Ils peuvent également tourner, changer d’opacité, changer de couleur et se déplacer sur le terrain de jeu. Les notes peuvent également modifier l’opacité. Il y a aussi des notes qui n’ont pas besoin d’être frappées du tout, généralement utilisées comme décoration ou comme guide pour savoir quand frapper d’autres notes.</p>
                     <h3>Système de jugement</h3>
                     <p>
-                        Lorsque vous frappez une note, le résultat sera l'un des trois jugements différents, Parfait,
-                        Bon ou
-                        Mauvais, selon la précision avec laquelle le coup a été chronométré, ou Manqué si la note n'a
-                        pas
-                        été frappée du tout. Chaque jugement attribuera une certaine précision.
+                        Lorsque vous frappez une note, le résultat sera l’un des deux jugements différents, stable ou perturbé, en fonction de la précision du moment où le coup a été chronométré, ou erreur si la note n’a pas été touchée du tout. Chaque jugement attribuera une certaine note. Les fenêtres de minutage changent selon que le mode Facile, Difficile ou Facile est sélectionné. En mode Facile, il est impossible d’obtenir le jugement Perturbé, seuls les jugements Stable et Erreur sont possibles.
                     </p>
                     <table>
                         <thead>
                             <tr>
                                 <th>Jugement</th>
-                                <th>Précision</th>
-                                <th>Fenêtre de temps</th>
-                                <th>Fenêtre de temps (en mode chalenge)</th>
+                                <th>Valeur en points</th>
+                                <th>Fenêtre de synchronisation (Easy-)</th>
+                                <th>Fenêtre de synchronisation (facile)</th>
+                                <th>Fenêtre de synchronisation (difficile)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Perfect</td>
+                                <td>Stable</td>
                                 <td>100%</td>
-                                <td>±80ms</td>
-                                <td>±40ms</td>
+                                <td>±150 ms</td>
+                                <td>±96 ms</td>
+                                <td>±72 ms</td>
                             </tr>
                             <tr class="colored-table">
-                                <td>Good</td>
-                                <td>65%</td>
-                                <td>±160ms</td>
-                                <td>±75ms</td>
+                                <td>Perturbé</td>
+                                <td>40%</td>
+                                <td>N/A	</td>
+                                <td>±150 ms</td>
+                                <td>±120 ms</td>
                             </tr>
                             <tr>
-                                <td>Bad</td>
+                                <td>Erreur</td>
                                 <td>0%</td>
-                                <td>±180ms</td>
-                                <td></td>
-                            </tr>
-                            <tr class="colored-table">
-                                <td>Miss</td>
-                                <td>0%</td>
+                                <td>N/A</td>
                                 <td>N/A</td>
                                 <td>N/A</td>
                             </tr>
                         </tbody>
                     </table>
-                    <blockquote>Les notes Drag and Flick sont incapables de donner des jugements bons ou mauvais, elles
-                        se traduiront donc toujours par Perfect ou Miss.</blockquote>
+                    <blockquote>Les notes de diapositive sont incapables de donner des jugements perturbés, de sorte qu’elles entraîneront toujours une stabilité ou une erreur.</blockquote>
+                    <p>Il y a aussi un modificateur aux jugements Stable et Disturbed, appelé Max. Contrairement aux jugements mentionnés ci-dessus, Max est basé sur la proximité du centre de la note qui a été tapotée. Les fenêtres physiques, ainsi que si Max est présent, changent également selon que le mode Facile ou Difficile est sélectionné.</p>
                 </div>
                 <div class="side-desc">
                     <h3>Aperçu du gameplay du jeu actuelle</h3>
                     <video src=""></video>
                     <h3>Infos intérésantes sur le jeu</h3>
                     <p style="margin-left: 15px;">
-                         À chaque fin d'une chapitre, le jeu possède des chansons cachés qui sont comme des niveau Boss pour débloqer le chapitre suivant.
+                        Toutes les chansons de chaque chapitre sont débloquées dès le début, à l’exception de la dernière chanson, qui est débloquée en obtenant un A sur toutes les autres chansons du chapitre (les difficultés peuvent varier). Toutes les chansons, à l’exception de la première, ont leurs difficultés difficiles débloquées au début. Ils peuvent être débloqués en obtenant un A sur la difficulté normale de la chanson ou en obtenant un A sur la difficulté difficile de la chanson précédente dans le pack.
+                    </p>
+                    <p style="margin-left: 15px;">
+                        À chaque fin d'une chapitre, le jeu possède des chansons cachés qui sont comme des niveau Boss pour débloqer le chapitre suivant (comme Phigros).
                     </p>
                     <h3>Liens utiles (liens externes)</h3>
-                    <a href="https://www.pigeongames.cn/phigros" class="util-links">
-                        <img src="Images/pigeon-logo.png" alt="">
-                        Site officielle du jeu
-                    </a>
-                    <a href="" class="util-links">
+                    <a href="https://orzmic.fandom.com/" class="util-links">
                         <img src="Images/fandom-wiki.png" alt="">
                         Wiki du jeu
                     </a>
-                    <a href="" class="util-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.BigTrue.Orzmic&gl=US" class="util-links">
                         <img src="Images/playstore-logo.png" alt="">
                         Telechager le jeu
                     </a>
