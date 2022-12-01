@@ -70,7 +70,7 @@
     bottom: 5vh;
 }
 #bio-landing{
-    margin-top: 20vh;
+    padding-top: 100px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@
     align-items: center;
 }
 .bio-img{
-    height: 50vh;
+    height: 400px ;
     width: 95%;
     border-radius: 8px;
     background-image: url(Images/pic05.jpg);
@@ -230,8 +230,11 @@
         float: right;
     }
 }
-
-
+@media only screen and (max-width:1500px){
+    .bio-img{
+        height: 50vw;
+    }
+}
 /*miscelaneous fixes for very large screens*/
 @media only screen and (min-width: 1500px) {
     .bio-text{

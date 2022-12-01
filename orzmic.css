@@ -76,7 +76,7 @@ table td {
 }
 .table-container{
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 .colored-table {
     background-color: var(--transparent-primary);
