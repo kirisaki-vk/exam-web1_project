@@ -74,7 +74,10 @@ table td {
 .side-desc h3 {
     margin: 25px 0;
 }
-
+.table-container{
+    width: 100%;
+    overflow: scroll;
+}
 .colored-table {
     background-color: var(--transparent-primary);
 }
@@ -97,6 +100,7 @@ table td {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        width: 100%;
         height: fit-content;
     }
     .description{

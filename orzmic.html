@@ -59,20 +59,26 @@
 
     <div class="main-container">
         <div class="slideshow">
-                <img src="Images/orzmic-slide1.jpg" alt="">
-                <img src="Images/orzmic-slide2.jpg" alt="">
+            <img src="Images/orzmic-slide1.jpg" alt="">
+            <img src="Images/orzmic-slide2.jpg" alt="">
         </div>
         <div class="description-container">
             <h1 style="margin-top: 50px;">Orzmic</h1>
-            <h2>Un tout nouveau jeu de musique non commercial développé par BTworks, Orzmic a un gameplay polyvalent et chaque chanson a un tableau qui vous donnera une expérience de jeu unique. Orzmic inclura plus de vingt pistes de chansons de haute qualité de producteurs de musique nationaux et internationaux dans la première version, et d’autres pistes seront à venir dans les versions suivantes. Restez à l’écoute!</h2>
+            <h2>Un tout nouveau jeu de musique non commercial développé par BTworks, Orzmic a un gameplay polyvalent et
+                chaque chanson a un tableau qui vous donnera une expérience de jeu unique. Orzmic inclura plus de vingt
+                pistes de chansons de haute qualité de producteurs de musique nationaux et internationaux dans la
+                première version, et d’autres pistes seront à venir dans les versions suivantes. Restez à l’écoute!</h2>
             <div class="separator"></div>
             <div class="desc-parent">
                 <div class="description">
                     <h3>À propos</h3>
-                    <p>Ce jeu qui est aussi gratuit proposé par BTworks est un jeu de rhythme très similaire à <a href="phigros.html">Phigros</a>. Elle est cependant plus dynamique et réactif que son concurent.</p>
+                    <p>Ce jeu qui est aussi gratuit proposé par BTworks est un jeu de rhythme très similaire à <a
+                            href="phigros.html">Phigros</a>. Elle est cependant plus dynamique et réactif que son
+                        concurent.</p>
                     <h3>Gameplay</h3>
                     <p>
-                        Le gameplay dans Orzmic se compose de différents types de notes descendant vers des cibles que le joueur doit frapper lorsque les notes atteignent.
+                        Le gameplay dans Orzmic se compose de différents types de notes descendant vers des cibles que
+                        le joueur doit frapper lorsque les notes atteignent.
                     </p>
                     <p>
                         Il y 3 types de notes dans ce jeu :
@@ -90,57 +96,78 @@
                         <li><b>Ligne : Appuyez/ Maintenez</b> enfoncée lorsque la note atteint la ligne</li>
                     </ul>
 
-                    <p>Il peut y avoir plusieurs cibles et les notes peuvent s’approcher de n’importe quel côté de la cible. Ils peuvent également tourner, changer d’opacité, changer de couleur et se déplacer sur le terrain de jeu. Les notes peuvent également modifier l’opacité. Il y a aussi des notes qui n’ont pas besoin d’être frappées du tout, généralement utilisées comme décoration ou comme guide pour savoir quand frapper d’autres notes.</p>
+                    <p>Il peut y avoir plusieurs cibles et les notes peuvent s’approcher de n’importe quel côté de la
+                        cible. Ils peuvent également tourner, changer d’opacité, changer de couleur et se déplacer sur
+                        le terrain de jeu. Les notes peuvent également modifier l’opacité. Il y a aussi des notes qui
+                        n’ont pas besoin d’être frappées du tout, généralement utilisées comme décoration ou comme guide
+                        pour savoir quand frapper d’autres notes.</p>
                     <h3>Système de jugement</h3>
                     <p>
-                        Lorsque vous frappez une note, le résultat sera l’un des deux jugements différents, stable ou perturbé, en fonction de la précision du moment où le coup a été chronométré, ou erreur si la note n’a pas été touchée du tout. Chaque jugement attribuera une certaine note. Les fenêtres de minutage changent selon que le mode Facile, Difficile ou Facile est sélectionné. En mode Facile, il est impossible d’obtenir le jugement Perturbé, seuls les jugements Stable et Erreur sont possibles.
+                        Lorsque vous frappez une note, le résultat sera l’un des deux jugements différents, stable ou
+                        perturbé, en fonction de la précision du moment où le coup a été chronométré, ou erreur si la
+                        note n’a pas été touchée du tout. Chaque jugement attribuera une certaine note. Les fenêtres de
+                        minutage changent selon que le mode Facile, Difficile ou Facile est sélectionné. En mode Facile,
+                        il est impossible d’obtenir le jugement Perturbé, seuls les jugements Stable et Erreur sont
+                        possibles.
                     </p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Jugement</th>
-                                <th>Valeur en points</th>
-                                <th>Fenêtre de synchronisation (Easy-)</th>
-                                <th>Fenêtre de synchronisation (facile)</th>
-                                <th>Fenêtre de synchronisation (difficile)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Stable</td>
-                                <td>100%</td>
-                                <td>±150 ms</td>
-                                <td>±96 ms</td>
-                                <td>±72 ms</td>
-                            </tr>
-                            <tr class="colored-table">
-                                <td>Perturbé</td>
-                                <td>40%</td>
-                                <td>N/A	</td>
-                                <td>±150 ms</td>
-                                <td>±120 ms</td>
-                            </tr>
-                            <tr>
-                                <td>Erreur</td>
-                                <td>0%</td>
-                                <td>N/A</td>
-                                <td>N/A</td>
-                                <td>N/A</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <blockquote>Les notes de diapositive sont incapables de donner des jugements perturbés, de sorte qu’elles entraîneront toujours une stabilité ou une erreur.</blockquote>
-                    <p>Il y a aussi un modificateur aux jugements Stable et Disturbed, appelé Max. Contrairement aux jugements mentionnés ci-dessus, Max est basé sur la proximité du centre de la note qui a été tapotée. Les fenêtres physiques, ainsi que si Max est présent, changent également selon que le mode Facile ou Difficile est sélectionné.</p>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Jugement</th>
+                                    <th>Valeur en points</th>
+                                    <th>Fenêtre de synchronisation (Easy-)</th>
+                                    <th>Fenêtre de synchronisation (facile)</th>
+                                    <th>Fenêtre de synchronisation (difficile)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Stable</td>
+                                    <td>100%</td>
+                                    <td>±150 ms</td>
+                                    <td>±96 ms</td>
+                                    <td>±72 ms</td>
+                                </tr>
+                                <tr class="colored-table">
+                                    <td>Perturbé</td>
+                                    <td>40%</td>
+                                    <td>N/A </td>
+                                    <td>±150 ms</td>
+                                    <td>±120 ms</td>
+                                </tr>
+                                <tr>
+                                    <td>Erreur</td>
+                                    <td>0%</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <blockquote>Les notes de diapositive sont incapables de donner des jugements perturbés, de sorte
+                        qu’elles entraîneront toujours une stabilité ou une erreur.</blockquote>
+                    <p>Il y a aussi un modificateur aux jugements Stable et Disturbed, appelé Max. Contrairement aux
+                        jugements mentionnés ci-dessus, Max est basé sur la proximité du centre de la note qui a été
+                        tapotée. Les fenêtres physiques, ainsi que si Max est présent, changent également selon que le
+                        mode Facile ou Difficile est sélectionné.</p>
                 </div>
                 <div class="side-desc">
                     <h3>Aperçu du gameplay du jeu actuelle</h3>
                     <video src=""></video>
                     <h3>Infos intérésantes sur le jeu</h3>
                     <p style="margin-left: 15px;">
-                        Toutes les chansons de chaque chapitre sont débloquées dès le début, à l’exception de la dernière chanson, qui est débloquée en obtenant un A sur toutes les autres chansons du chapitre (les difficultés peuvent varier). Toutes les chansons, à l’exception de la première, ont leurs difficultés difficiles débloquées au début. Ils peuvent être débloqués en obtenant un A sur la difficulté normale de la chanson ou en obtenant un A sur la difficulté difficile de la chanson précédente dans le pack.
+                        Toutes les chansons de chaque chapitre sont débloquées dès le début, à l’exception de la
+                        dernière chanson, qui est débloquée en obtenant un A sur toutes les autres chansons du chapitre
+                        (les difficultés peuvent varier). Toutes les chansons, à l’exception de la première, ont leurs
+                        difficultés difficiles débloquées au début. Ils peuvent être débloqués en obtenant un A sur la
+                        difficulté normale de la chanson ou en obtenant un A sur la difficulté difficile de la chanson
+                        précédente dans le pack.
                     </p>
                     <p style="margin-left: 15px;">
-                        À chaque fin d'une chapitre, le jeu possède des chansons cachés qui sont comme des niveau Boss pour débloqer le chapitre suivant (comme Phigros).
+                        À chaque fin d'une chapitre, le jeu possède des chansons cachés qui sont comme des niveau Boss
+                        pour débloqer le chapitre suivant (comme Phigros).
                     </p>
                     <h3>Liens utiles (liens externes)</h3>
                     <a href="https://orzmic.fandom.com/" class="util-links">
@@ -160,4 +187,5 @@
         </div>
     </div>
 </body>
+
 </html>
