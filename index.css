@@ -78,11 +78,9 @@
     align-items: center;
 }
 .bio-img{
-    height: 400px ;
+    height: auto ;
     width: 95%;
     border-radius: 8px;
-    background-image: url(Images/pic05.jpg);
-    background-size: cover;
 }
 
 .bio-text{
@@ -227,10 +225,13 @@
 @media only screen and (min-width: 1500px) {
     .bio-text{
         border-radius: 8px;
-        padding: 25px;
+        padding: 50px;
         gap: 50px;
     }
     .bio-text div{
+        max-width: 385px;
+    }
+    .bio-text p{
         max-width: 385px;
     }
 }
