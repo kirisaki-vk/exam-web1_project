@@ -204,7 +204,7 @@
         flex-direction: column;
     }
     .games-descripts div img{
-        height: 25vh;
+        height: auto;
         width: 90vw;
         border-radius: 8px 8px 0 0;
     }
