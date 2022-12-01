@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="small.css">
 </head>
+
 <body>
     <div class="top-nav">
         <header>
@@ -26,7 +28,6 @@
                             <a href="phigros.html" class="dropdown-content">Phigros</a>
                             <a href="cytoid.html" class="dropdown-content">Cytoid</a>
                             <a href="" class="dropdown-content">Orzmic</a>
-                            <a href="" class="dropdown-content">Autres jeux</a>
                         </div>
                     </li>
                     <li class="main-list"><a href="about.html">À propos</a></li>
@@ -47,7 +48,6 @@
                             <li><a href="phigros.html">Phigros</a></li>
                             <li><a href="cytoid.html">Cytoid</a></li>
                             <li><a href="orzmic.html">Orzmic</a></li>
-                            <li><a href="">Autres jeux</a></li>
                         </ul>
                     </li>
                     <li><a href="about.html">À propos</a></li>
@@ -58,11 +58,64 @@
     <div class="fixed-background"></div>
     <div class="main-container">
         <div class="info">
-            <form action="">
-                <input type="text" name="Nom" id="name" placeholder="Nom">
-                <input type="text" name="Prenom" id="first-name" placeholder="Prénom">
-                <textarea name="message" id="message"></textarea>
-            </form>
+            <h1>Infos à savior sur le site</h1>
+            <p>Ce site est actuellement l'application de tout mes connaissances en <b> HTML</b> et <b>CSS</b>.</p>
+            <p>Vous pouvez voir dans ce tableau la Checklist des éléments fonctionelles sur ce site</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fonctionalités</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ressponsive</td>
+                        <td>Oui (Supporte un assez large variété de tailles d'écran)</td>
+                    </tr>
+                    <tr class="colored-table">
+                        <td>Support Mobile</td>
+                        <td>Oui</td>
+                    </tr>
+                    <tr>
+                        <td>Besoin de connexion</td>
+                        <td>Oui (Seulement pour afficher Google Maps)</td>
+                    </tr>
+                    <tr class="colored-table">
+                        <td>Taille du code totale</td>
+                        <td>~90Mb (Ressources vidéos inclus)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Liens utiles</h2>
+            <p>Le code de ce site est actuellement hebergé sur <a href="http://github.com/">GitHub</a>. Vou pourrez voir
+                le code sources et tout mes commits mal formulés dedans 😅 en cliquant sur le bouttuon si dessous.</p>
+            <a href="https://github.com/kirisaki-vk/exam-web1_project" class="more">Voir le code source</a>
+
+            <div class="messaging-container">
+                <form action="">
+                    <h1>M'écrire un message</h1>
+                    <p id="message-me">Ecrivez vos messages ici si vous voulez me contacter, Mais vous povez aussi me
+                        retrouver
+                        sur les réseau sociaux.</p>
+                    <input type="text" name="Nom" id="name" placeholder="Nom">
+                    <input type="text" name="Prenom" id="first-name" placeholder="Prénom">
+                    <textarea name="message" id="message"
+                        placeholder="Veuillez écrire votre message ici ..."></textarea>
+                    <button>Envoyer le message</button>
+                </form>
+                <div>
+                    <h1>Quelques infos sur mon école</h1>
+                    <h2>Détails</h2>
+                    <p>Vous pouvez voir ici le site web de mon école. Le site sera bien riche en infos</p>
+                    <a href="http://hei.school/" class="more">Site officiele de HEI</a>
+                    <h2>Emplacement</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6349.427311570399!2d47.53436221444394!3d-18.86968014752796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f087ecae7cef27%3A0x73f917bb47615aa0!2sHaute%20%C3%89cole%20d&#39;Informatique%20-%20%5BHEI%5D!5e0!3m2!1sfr!2smg!4v1669890292671!5m2!1sfr!2smg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">Emplacement de mon école actuelle.</iframe>
+                </div>
+            </div>
         </div>
         <div>
             <footer>
@@ -72,4 +125,5 @@
         </div>
     </div>
 </body>
+
 </html>

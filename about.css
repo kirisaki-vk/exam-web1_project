@@ -15,6 +15,67 @@
     display: flex;
     flex-direction: column;
 }
+.info{
+    padding: 20px;
+    padding-top: 80px;
+}
+.info h2{
+    margin-left: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form * {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+form *:focus{
+    background-color: white;
+}
+.messaging-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 30px;
+}
 textarea{
     resize: vertical;
+}
+
+form button{
+    width: fit-content;
+    position: static;
+    right: 0;
+}
+form h1,h2,p{
+    padding: 0;
+}
+::placeholder{
+    color: rgb(167, 167, 167);
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 50px 0;
+}
+
+table td {
+    border-bottom: 1px solid rgba(255, 217, 0, 0.5);
+    padding: 20px;
+}
+
+.colored-table {
+    background-color: var(--transparent-primary);
+}
+
+@media only screen and (max-width:1000px){
+    .messaging-container{
+        flex-direction: column;
+    }
 }
