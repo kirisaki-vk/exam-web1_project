@@ -87,6 +87,7 @@ table td {
     margin: 30px auto !important;
     flex-direction: row;
     flex-wrap: nowrap;
+    gap: 10px;
     width: 90%;
     height: fit-content;
     align-items: center;
@@ -98,7 +99,7 @@ table td {
     background-color: var(--transparent-primary);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px 8px 8px 8px;
 }
 .demos-details ul{
     padding-left: 10px;
@@ -144,6 +145,7 @@ table td {
     .notes-demos{
         flex-direction: column;
         margin: auto;
+        gap: 0;
     }
     .notes-demos img{
         width: 100%;
