@@ -17,7 +17,6 @@
     background-color: transparent;
     scroll-behavior: smooth;
 }
-
 .top-nav_mobile{
     display: none;
 }
@@ -30,7 +29,7 @@
     backdrop-filter: blur(4px);
     margin: 5px;
     border-radius: 8px;
-    z-index: 1000000;
+    z-index: 100000;
 }
 header{
     display: block;
